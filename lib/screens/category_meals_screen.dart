@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../widgets/meal_item.dart';
 import '../my_data.dart';
 
 class CategoryMealsScreen extends StatelessWidget {
@@ -20,7 +21,12 @@ class CategoryMealsScreen extends StatelessWidget {
         title: Text(categoryTitle ?? 'Default category name'),
       ),
       body: ListView.builder(
-        itemBuilder: (ctx, index) => Text(categoryMeals[index].title),
+        itemBuilder: (ctx, index) => MealItem(
+            title: categoryMeals[index].title,
+            imageUrl: categoryMeals[index].imageUrl,
+            affordability: categoryMeals[index].affordability,
+            complexity: categoryMeals[index].complexity,
+            durationl: categoryMeals[index].duration),
         itemCount: categoryMeals.length,
       ),
     );
