@@ -3,15 +3,8 @@ import '../widgets/category_item.dart';
 import '../my_data.dart';
 
 class CategoriesScreen extends StatelessWidget {
-  const CategoriesScreen() : super();
-
   @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('Deli Meals'),
-      ),
-      body: GridView(
+  Widget build(BuildContext context) => GridView(
         children: MY_CATEGORIES
             .map((catData) =>
                 CategoryItem(catData.id, catData.title, catData.color))
@@ -23,7 +16,5 @@ class CategoriesScreen extends StatelessWidget {
           crossAxisSpacing: 20,
           mainAxisSpacing: 20,
         ),
-      ),
-    );
-  }
+      );
 }
