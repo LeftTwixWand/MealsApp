@@ -3,7 +3,6 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import '../screens/meal_detail_screen.dart';
 import '../models/meal.dart';
-import '../my_data.dart';
 
 class MealItem extends StatelessWidget {
   final String id;
