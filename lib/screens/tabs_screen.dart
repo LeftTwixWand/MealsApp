@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../widgets/main_drawr.dart';
 import './favourites_screen.dart';
 import './categories_screen.dart';
 
@@ -9,10 +10,7 @@ class TabScreen extends StatefulWidget {
 
 class _TabScreenState extends State<TabScreen> {
   final List<Map<String, Object>> _pages = [
-    {
-      'page': CategoriesScreen(),
-      'title': 'Categories',
-    },
+    {'page': CategoriesScreen(), 'title': 'Categories'},
     {'page': FavouritesScreen(), 'title': 'Favourites'},
   ];
 
@@ -32,6 +30,7 @@ class _TabScreenState extends State<TabScreen> {
         appBar: AppBar(
           title: Text(_pages[_selectedPageIndex]['title'] as String),
         ),
+        drawer: MainDrawr(),
         bottomNavigationBar: BottomNavigationBar(
           unselectedItemColor: Colors.white,
           selectedItemColor: Theme.of(context).accentColor,
