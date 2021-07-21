@@ -14,7 +14,7 @@ class CategoryMealsScreen extends StatefulWidget {
 }
 
 class _CategoryMealsScreenState extends State<CategoryMealsScreen> {
-  late String categoryTitle;
+  late String? categoryTitle;
   late List<Meal> displayedMeals;
 
   @override
@@ -23,7 +23,7 @@ class _CategoryMealsScreenState extends State<CategoryMealsScreen> {
         ModalRoute.of(context)?.settings.arguments as Map<String, String>;
 
     final categoryId = routeArguments['id'];
-    categoryTitle = routeArguments['title'] as String;
+    categoryTitle = routeArguments['title'];
     displayedMeals = widget.availableMeals
         .where((element) => element.categories.contains(categoryId))
         .toList();
