@@ -3,7 +3,7 @@ import '../widgets/meal_item.dart';
 import '../models/meal.dart';
 
 class FavouritesScreen extends StatelessWidget {
-  List<Meal> favoriteMeals;
+  final List<Meal> favoriteMeals;
 
   FavouritesScreen(this.favoriteMeals);
 

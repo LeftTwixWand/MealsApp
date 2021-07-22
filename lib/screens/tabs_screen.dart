@@ -5,7 +5,7 @@ import './favourites_screen.dart';
 import './categories_screen.dart';
 
 class TabScreen extends StatefulWidget {
-  List<Meal> favoriteMeals;
+  final List<Meal> favoriteMeals;
 
   TabScreen(this.favoriteMeals);
 
