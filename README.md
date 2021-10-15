@@ -2,7 +2,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/LeftTwixWand/MealsApp/blob/master/LICENSE)
 [![CI](https://github.com/LeftTwixWand/MealsApp/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/LeftTwixWand/MealsApp/actions/workflows/ci.yml)
 
-This is a simple catalog app about food, ingredients and recipts.
+This is a simple catalog app about food, ingredients and receipts
 
 The app was made using [Flutter](https://github.com/flutter/flutter) and can be run on any platform, like Androind, IOS, Windows and WEB.
 
