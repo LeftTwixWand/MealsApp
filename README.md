@@ -1,16 +1,18 @@
-# Meals App
+## Meals App
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/LeftTwixWand/MealsApp/blob/master/LICENSE)
+[![CI](https://github.com/LeftTwixWand/MealsApp/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/LeftTwixWand/MealsApp/actions/workflows/ci.yml)
 
-A new Flutter project.
+This is a simple catalog app about food, ingredients and recipts.
 
-## Getting Started
+The app was made using [Flutter](https://github.com/flutter/flutter) and can be run on any platform, like Androind, IOS, Windows and WEB.
 
-This project is a starting point for a Flutter application.
+## App preview
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/50652041/137550599-4f55a3d2-4d29-4875-8290-15e5f2e99e01.png" width="350" title="hover text">
+  <img src="https://user-images.githubusercontent.com/50652041/137550603-b211300a-4fb6-40b5-8d6d-f4968f6c86be.png" width="350" alt="accessibility text">
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/50652041/137550604-a0fcec45-8518-4161-9279-c97f9ddc7ff6.png" width="350" title="hover text">
+  <img src="https://user-images.githubusercontent.com/50652041/137550602-0f7777c7-4f97-49c2-bdee-f545425305fb.png" width="350" alt="accessibility text">
+</p>
